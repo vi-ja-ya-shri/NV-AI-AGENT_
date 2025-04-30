@@ -139,7 +139,7 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
 
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 
-GOOGLE_API_API_KEY=your_openai_api_key
+GOOGLE_API_KEY=your_openai_api_key
 
 IBM_API_KEY=your_ibm_api_key
 
