@@ -116,7 +116,7 @@ This agent can intelligently interact with external tools, deliver real-time str
 
 # 🛠️ Installation
 # Clone the repo
-git clone https://github.com/yourusername/ibm-ai-agent.git
+git clone (https://github.com/vi-ja-ya-shri/NV-AI-AGENT_)
 cd nv-ai-agent
 
 # Install dependencies
