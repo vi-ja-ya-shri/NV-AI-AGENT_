@@ -5,7 +5,7 @@ This agent can intelligently interact with external tools, deliver real-time str
 
 # 🚀 Features
 
--🤖 Advanced AI chat interface powered by OpenAI 
+-🤖 Advanced AI chat interface powered by Google Gemini 
 
 -🎨 Modern, responsive UI with Tailwind CSS
 
@@ -33,7 +33,7 @@ This agent can intelligently interact with external tools, deliver real-time str
 |------------------|------------------------------------------|
 | Frontend         | Next.js 15.1.3, React 19                 |
 | UI               | Tailwind CSS, Shadcn/UI                  |
-| AI Integration   | OpenAI, LangChain, LangGraph             |
+| AI Integration   | Google Gemini , LangChain, LangGraph             |
 | Auth             | Clerk                                    |
 | Database         | Convex                                   |
 | Dev Tools        | TypeScript, Vercel, Lucide/Radix UI Icons|
@@ -139,7 +139,7 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
 
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 
-Gemini_API_API_KEY=your_openai_api_key
+GOOGLE_API_API_KEY=your_openai_api_key
 
 IBM_API_KEY=your_ibm_api_key
 
