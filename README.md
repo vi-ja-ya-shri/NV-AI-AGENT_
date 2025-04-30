@@ -1,6 +1,6 @@
 # 🤖 NV AI Agent – Tool-Augmented AI Built with Next.js 15, LangChain, IBM, Clerk, and Convex
 
-NV AI is a powerful, production-ready AI Agent built using cutting-edge technologies: Next.js 15, React 19, LangChain, LangGraph, IBM WxFlows, Clerk, Convex, and OpenAI.
+NV AI is a powerful, production-ready AI Agent built using cutting-edge technologies: Next.js 15, React 19, LangChain, LangGraph, IBM WxFlows, Clerk, Convex, and Google Gemini API.
 This agent can intelligently interact with external tools, deliver real-time streaming responses, and operate through a modern, dynamic chat interface — built for real-world AI applications.
 
 # 🚀 Features
@@ -110,7 +110,7 @@ This agent can intelligently interact with external tools, deliver real-time str
 
 -[IBM WxFlows account (tools)](https://wxflows.ibm.stepzen.com/)
 
--OpenAI API key (ai model) or any model of your choice , initialize model changes in LangGraph according to your model.
+-Google Gemini API key (ai model) or any model of your choice , initialize model changes in LangGraph according to your model.
 
 -PNPM (preferred) / NPM / Yarn
 
@@ -139,7 +139,7 @@ NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
 
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
 
-OPENAI_API_KEY=your_openai_api_key
+Gemini_API_API_KEY=your_openai_api_key
 
 IBM_API_KEY=your_ibm_api_key
 
