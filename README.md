@@ -116,14 +116,37 @@ This agent can intelligently interact with external tools, deliver real-time str
 
 # 🛠️ Installation
 # Clone the repo
-git clone (https://github.com/vi-ja-ya-shri/NV-AI-AGENT_)
-cd nv-ai-agent
+git clone https://github.com/vi-ja-ya-shri/NV-AI-AGENT_.git
+cd NV-AI-AGENT
 
 # Install dependencies
 pnpm install
 
 # Start the dev server
 pnpm dev
+
+# 🔐 Environment Variables
+Create a .env.local file in the root directory with:
+"NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+
+CLERK_SECRET_KEY=your_clerk_secret_key
+
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/dashboard
+
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/dashboard
+
+OPENAI_API_KEY=your_openai_api_key
+
+IBM_API_KEY=your_ibm_api_key
+
+CONVEX_API_KEY=your_convex_api_key
+
+NEXT_PUBLIC_CLERK_FRONTEND_API=your_clerk_frontend_api
+
 
 App runs at http://localhost:3000
 
